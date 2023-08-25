@@ -1,0 +1,147 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: orange;
+    /* border: 2px solid green; */
+    padding: 10px;
+}
+
+
+.homepage{
+    width: 100%;
+    max-width: 400px;
+   
+    text-align: center;
+    background: white;
+    border: 2px solid black;
+    margin: 100px auto 20px;
+    padding: 5px 100px 200px;
+    border-radius: 15px;
+}
+
+
+
+.btn{
+   
+        border: none;
+        outline: none;
+        padding: 16px 50px;
+        background: #ff5945;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 40px;
+
+
+        /* padding: 7px 15px;  */
+        margin: 10px 0px;
+  
+}
+
+  .add-task {
+    width: 100%;
+      outline: none;
+      font-size: 15px;
+      padding: 11px;
+      border: 1px solid #f3f3f3;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+
+  .add-task {
+    width: 100%;
+      outline: none;
+      font-size: 15px;
+      padding: 11px;
+      border: 1px solid #f3f3f3;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+
+
+.container-btn {
+
+    margin-top: 100px;
+}
+
+.box{
+  /* background-color: lightgrey;
+  width: 300px;
+  border: 1px solid #f3f3f3;
+  padding: 50px;
+  margin: 20px; */
+
+  width: 450px;
+  outline: none;
+  font-size: 12px;
+  padding: 15px;
+  border: 2px solid #f3f3f3;
+  margin : 5px ;
+  
+
+  
+  
+  
+  /* margin-top: 20px;
+  margin-bottom: 10px; */
+}
+
+
+
+
+.todo-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 70%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  padding-left: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 2rem;
+}
+.todo p{
+    justify-content:space-evenly;
+}  
+
+/* p{
+   background-color: #ff5945;
+} */
+
+.todo li{
+ 
+  flex: 1;
+  margin-left: 0;
+  padding-left: 0;
+  padding-inline-start: 0;
+
+}
+
+
+
+.todo li{
+  text-align: left;
+  padding: 10px 0;
+
+ 
+}
+
+ul{
+  padding-inline-start: 0;
+  display : flex ;
+  align-items: start;
+}

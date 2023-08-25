@@ -1,1 +1,8 @@
 Notes
+
+1) npx create-react-app ./
+2) npm install --legacy-peer-deps
+3) App.Js  {
+     1) Box from materialUi simply a div component
+     
+}
